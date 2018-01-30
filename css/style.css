@@ -1,0 +1,18 @@
+/* pt-sans-caption-regular - latin_cyrillic */
+@font-face {
+  font-family: 'PT Sans Caption';
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans Caption"), local("PTSans-Caption"), url("../fonts/pt-sans-caption-v10-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/pt-sans-caption-v10-latin_cyrillic-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* pt-sans-caption-700 - latin_cyrillic */
+@font-face {
+  font-family: 'PT Sans Caption';
+  font-style: normal;
+  font-weight: 700;
+  src: local("PT Sans Caption Bold"), local("PTSans-CaptionBold"), url("../fonts/pt-sans-caption-v10-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/pt-sans-caption-v10-latin_cyrillic-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+body {
+  font-family: 'PT Sans Caption', Arial, sans-serif; }

@@ -1,0 +1,44 @@
+{
+  "name": "tprs-landing",
+  "version": "0.1.0",
+  "description": "Landing for TPRS",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "browser-sync": "^2.18.2",
+    "css-mqpacker": "^6.0.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-wait": "0.0.2",
+    "pug-lint": "^2.5.0",
+    "pug-lint-config-clock": "^2.0.0"
+  },
+  "scripts": {
+    "serve": "gulp serve",
+    "style": "gulp style",
+    "pug": "gulp pug"
+  },
+  "editorconfig-cli": [
+    "*.html",
+    "*.json",
+    "*.js",
+    "js/**/*.js",
+    "img/**/*.svg",
+    "sass/**/*.{sass,scss}"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cognitive-cake/tprs-landing.git"
+  },
+  "author": "Cognitive Cake",
+  "bugs": {
+    "url": "https://github.com/cognitive-cake/tprs-landing/issues"
+  },
+  "homepage": "https://github.com/cognitive-cake/tprs-landing#readme"
+}
