@@ -16,3 +16,17 @@
 
 body {
   font-family: 'PT Sans Caption', Arial, sans-serif; }
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  .header__list-of-services {
+    min-height: 67px; }
+  .header__logo {
+    min-height: 67px; }
+  .header__user-account {
+    min-height: 67px; }
+
+.main {
+  margin-top: 67px; }

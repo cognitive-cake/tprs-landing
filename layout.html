@@ -11,14 +11,23 @@
 </head>
 
 <body>
-    <header class="container-fluid">
+    <header class="header container-fluid">
         <div class="row">
-            <div class="col-sm-3 text-left bg-primary">Список услуг</div>
-            <div class="col-sm-6 text-center bg-primary">Логотип</div>
-            <div class="col-sm-3 text-right bg-primary">Личный кабинет</div>
+            <div class="header__list-of-services col-sm-3 text-left bg-primary">
+                <div class="dropdown"><button class="btn btn-default dropdown-toggle" id="list-of-services" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Список услуг<span class="caret"></span></button>
+                    <ul class="dropdown-menu" aria-labelledby="list-of-services">
+                        <li><a href="#">Услуга 1</a></li>
+                        <li><a href="#">Услуга 2</a></li>
+                        <li><a href="#">Услуга 3</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__logo col-sm-6 text-center bg-primary">
+                <div class="logo">Логотип</div>
+            </div>
+            <div class="header__user-account col-sm-3 text-right bg-primary"><a class="btn btn-default" href="#">Личный кабинет</a></div>
         </div>
     </header>
-    <main></main>
     <footer></footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

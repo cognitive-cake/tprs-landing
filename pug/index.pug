@@ -1,2 +1,78 @@
 extends layout.pug
 block main-content
+  main.main
+    section.main__search-form.container
+      form.search-form(action='#', method='post')
+        h2 Поиск начислений
+        input.search-form__input(type='text', placeholder='Введите данные для поиска')
+        button.search-form__submit(type='submit') Найти
+    section.main__description.services
+      header.container
+        h1.services__title Здесь можно оплатить
+        nav.services__navigation
+          ul.list-unstyled.list-inline
+            li(role='presentation')
+              a(href='#') Штрафы и пошлины ГИБДД
+            li(role='presentation')
+              a(href='#') Судебные задолженности
+            li(role='presentation')
+              a(href='#') Налоги
+            li(role='presentation')
+              a(href='#') Услуги Росреестра
+            li
+              | и другие услуги
+        // link to page
+      article.service-description.container.services__road-police
+        img.service-description__img.pull-right(src='http://via.placeholder.com/309x288', alt='Service preview')
+        h3 Штрафы ГИБДД
+        p Для поиска укажите номера водительского удостоверения и свидетельства о регистрации ТС или номер штрафа.
+        p Если у вас есть на руках постановление о штрафе, вы можете указать реквизиты самостоятельно.
+        h5.text-uppercase Платить вовремя — дешевле!
+        p В первые 20 дней после выдачи постановления штраф можно оплатить со скидкой 50%. Для своевременной оплаты штрафов настройте уведомления в Личном кабинете.
+        h3
+          a(href='#') Пошлины ГИБДД
+        p Перейдите по ссылке и укажите вид пошлины и отделение ГИБДД, предоставляющее вам услугу.
+      hr
+      article.service-description.container.services__judicial-debt
+        img.service-description__img.pull-left(src='http://via.placeholder.com/309x288', alt='Service preview')
+        h3 Судебные задолженности
+        p Для поиска начислений в ГИС ГМП укажите документы: паспорт РФ, ИНН, СНИЛС или номер Исполнительного производства.
+        p Вы можете указать реквизиты платежа самостоятельно, заполнив форму.
+        h5.text-uppercase Удобно!
+        p Судебные задолженности можно погасить как сразу, так и по частям, комфортными для вас платежами. Информацию о совершенных платежах сохраняйте в Личном кабинете.
+      hr
+      article.service-description.container.services__tallage
+        img.service-description__img.pull-right(src='http://via.placeholder.com/309x218', alt='Service preview')
+        h3 Налоги
+        p Для поиска начислений по налогам в ГИС ГМП укажите ИНН или индекс налогового документа, если у вас на руках есть квитанция.
+        h5.text-uppercase Важно!
+        p Согласно законодательству РФ вы не можете оплачивать налоги за других физических лиц. Принимаются только платежи физических лиц.
+      hr
+      article.service-description.container.services__registry-services
+        img.service-description__img.pull-left(src='http://via.placeholder.com/309x218', alt='Service preview')
+        h3 Услуги Росреестра
+        p В поисковой строке укажите Код платежа, который был отправлен вам на почтовый ящик, указанный при подаче запроса в Росреестре.
+        h5.text-uppercase Нет кода?
+        p Если у вас еще нет кода платежа, перейдите на сайт rosreestr.ru и сформируйте запрос на оплату электронных услуг Росреестра.
+      hr
+    section.main__our-partners.container
+      h3 C нами работают
+      .row
+        .col-sm-2.col-xs-6
+          img(src='./img/partner-01.svg', alt='Company Logo')
+          h6 Партнер 1
+        .col-sm-2.col-xs-6
+          img(src='./img/partner-02.svg', alt='Company Logo')
+          h6 Компания-партнер с длинным названием
+        .col-sm-2.col-xs-6
+          img(src='./img/partner-01.svg', alt='Company Logo')
+          h6 Партнер 3
+        .col-sm-2.col-xs-6
+          img(src='./img/partner-03.svg', alt='Company Logo')
+          h6 Название партнера 4
+        .col-sm-2.col-xs-6
+          img(src='./img/partner-01.svg', alt='Company Logo')
+          h6 Компания-партнер 5
+        .col-sm-2.col-xs-6
+          img(src='./img/partner-04.svg', alt='Company Logo')
+          h6 Партнер 6 с длинным названием

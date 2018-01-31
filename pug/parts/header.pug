@@ -1,8 +1,18 @@
-header.container-fluid
+header.header.container-fluid
   .row
-    .col-sm-3.text-left.bg-primary
-      | Список услуг
-    .col-sm-6.text-center.bg-primary
-      | Логотип
-    .col-sm-3.text-right.bg-primary
-      | Личный кабинет
+    .header__list-of-services.col-sm-3.text-left.bg-primary
+      .dropdown
+        button.btn.btn-default.dropdown-toggle#list-of-services(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true')
+          | Список услуг
+          span.caret
+        ul.dropdown-menu(aria-labelledby='list-of-services')
+          li
+            a(href='#') Услуга 1
+          li
+            a(href='#') Услуга 2
+          li
+            a(href='#') Услуга 3
+    .header__logo.col-sm-6.text-center.bg-primary
+      .logo Логотип
+    .header__user-account.col-sm-3.text-right.bg-primary
+      a.btn.btn-default(href='#') Личный кабинет

@@ -1,0 +1,15 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  &__list-of-services {
+    min-height: 67px;
+  }
+  &__logo {
+    min-height: 67px;
+  }
+  &__user-account {
+    min-height: 67px;
+  }
+}
