@@ -17,6 +17,9 @@
 body {
   font-family: 'PT Sans Caption', Arial, sans-serif; }
 
+.footer {
+  background-color: #e8ebf0; }
+
 .header {
   position: fixed;
   top: 0;
@@ -30,3 +33,7 @@ body {
 
 .main {
   margin-top: 67px; }
+
+.partners__single-company img {
+  display: block;
+  margin: 0 auto; }
