@@ -19,6 +19,8 @@ body {
 
 .footer {
   background-color: #e8ebf0; }
+  .footer__copyright-second img {
+    max-width: 100%; }
 
 .header {
   position: fixed;

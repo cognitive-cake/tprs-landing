@@ -13,17 +13,18 @@
 <body>
     <header class="header container-fluid">
         <div class="row">
-            <div class="header__list-of-services col-sm-3 text-left bg-primary">
-                <div class="dropdown"><button class="btn btn-default dropdown-toggle" id="list-of-services" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Список услуг<span class="caret"></span></button>
-                    <ul class="dropdown-menu" aria-labelledby="list-of-services">
+            <div class="header__list-of-services col-sm-3 col-xs-4 text-left">
+                <div class="dropdown"><button class="btn btn-default dropdown-toggle" id="list-of-services" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="hidden-xs">Список услуг</span><span class="caret hidden-xs"></span><img class="icon-bar visible-xs-block" src="./img/toggle-nav.svg" alt="Toggle"></button>
+                    <ul
+                        class="dropdown-menu" aria-labelledby="list-of-services">
                         <li><a href="#">Услуга 1</a></li>
                         <li><a href="#">Услуга 2</a></li>
                         <li><a href="#">Услуга 3</a></li>
-                    </ul>
+                        </ul>
                 </div>
             </div>
-            <div class="header__logo col-sm-6 text-center bg-primary"><img class="logo" src="./img/logo.png" alt="Logo"></div>
-            <div class="header__user-account col-sm-3 text-right bg-primary"><a class="btn btn-default" href="#">Личный кабинет</a></div>
+            <div class="header__logo col-sm-6 col-xs-4 text-center"><img class="logo" src="./img/logo-main.jpg" alt="Logo" sizes="(max-width: 600px), 262px" srcset="./img/logo-main-mobile.jpg 262w, ./img/logo-main.jpg 411w "></div>
+            <div class="header__user-account col-sm-3 col-xs-4 text-right"><a class="btn btn-default" href="#">Личный кабинет</a></div>
         </div>
     </header>
     <footer class="footer container-fluid">
@@ -42,7 +43,7 @@
                 </nav>
             </div>
             <div class="footer__contacts col-sm-3">
-                <p class="lead"><a href="tel:88001234567">8 800 123 4567</a></p><small>звонок по России бесплатный</small>
+                <p class="h4"><a href="tel:88001234567">8 800 123 4567</a></p><small>звонок по России бесплатный</small>
                 <ul class="list-unstyled">
                     <li><a href="#">Обратная связь</a></li>
                     <li><a href="#">Мы вКонтакте</a></li>

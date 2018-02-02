@@ -1,10 +1,11 @@
 header.header.container-fluid
   .row
-    .header__list-of-services.col-sm-3.text-left.bg-primary
+    .header__list-of-services.col-sm-3.col-xs-4.text-left
       .dropdown
         button.btn.btn-default.dropdown-toggle#list-of-services(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true')
-          | Список услуг
-          span.caret
+          span.hidden-xs Список услуг
+          span.caret.hidden-xs
+          img.icon-bar.visible-xs-block(src='./img/toggle-nav.svg', alt='Toggle')
         ul.dropdown-menu(aria-labelledby='list-of-services')
           li
             a(href='#') Услуга 1
@@ -12,7 +13,7 @@ header.header.container-fluid
             a(href='#') Услуга 2
           li
             a(href='#') Услуга 3
-    .header__logo.col-sm-6.text-center.bg-primary
-      img.logo(src='./img/logo.png', alt='Logo')
-    .header__user-account.col-sm-3.text-right.bg-primary
+    .header__logo.col-sm-6.col-xs-4.text-center
+      img.logo(src='./img/logo-main.jpg', alt='Logo', sizes='(max-width: 600px), 262px', srcset='./img/logo-main-mobile.jpg 262w, ./img/logo-main.jpg 411w ')
+    .header__user-account.col-sm-3.col-xs-4.text-right
       a.btn.btn-default(href='#') Личный кабинет
