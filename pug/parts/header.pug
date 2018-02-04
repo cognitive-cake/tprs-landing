@@ -1,11 +1,11 @@
 header.header.container-fluid
   .row
-    .header__list-of-services.col-sm-3.col-xs-4.text-left
+    .header__list-of-services.col-xs-2.col-sm-4.pull-left.text-left
       .dropdown
-        button.btn.btn-default.dropdown-toggle#list-of-services(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true')
+        button.dropdown-toggle#list-of-services(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true')
           span.hidden-xs Список услуг
           span.caret.hidden-xs
-          img.icon-bar.visible-xs-block(src='./img/toggle-nav.svg', alt='Toggle')
+          img.icon-bar.visible-xs-inline-block(src='./img/toggle-nav.svg', alt='Toggle')
         ul.dropdown-menu(aria-labelledby='list-of-services')
           li
             a(href='#') Услуга 1
@@ -13,7 +13,8 @@ header.header.container-fluid
             a(href='#') Услуга 2
           li
             a(href='#') Услуга 3
-    .header__logo.col-sm-6.col-xs-4.text-center
+    .header__logo.col-xs-8.col-sm-4.center-block.text-center
       img.logo(src='./img/logo-main.jpg', alt='Logo', sizes='(max-width: 600px), 262px', srcset='./img/logo-main-mobile.jpg 262w, ./img/logo-main.jpg 411w ')
-    .header__user-account.col-sm-3.col-xs-4.text-right
-      a.btn.btn-default(href='#') Личный кабинет
+    .header__user-account.col-xs-2.col-sm-4.pull-right.text-right
+      a.hidden-xs(href='#') Личный кабинет
+      img.user-logo.visible-xs-inline-block(src='./img/user-logo.png', alt='User Profile')

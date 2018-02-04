@@ -9,9 +9,17 @@
   &__list-of-services {
     min-height: 67px;
   }
+
   &__logo {
+    // max-width: 262px;
     min-height: 67px;
+
+    & img {
+      display: inline-block;
+      max-width: 100%;
+    }
   }
+
   &__user-account {
     min-height: 67px;
   }
