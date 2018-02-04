@@ -40,7 +40,25 @@ body {
 
 .main {
   margin-top: 67px; }
+  .main__search-form {
+    min-height: 360px;
+    background-color: #6c98c1; }
 
 .partners__single-company img {
   display: block;
   margin: 0 auto; }
+
+.search-form {
+  display: inline-block;
+  margin-top: 85px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px; }
+
+.services__road-police img,
+.services__tallage img {
+  margin-left: 40px; }
+
+.services__judicial-debt img,
+.services__registry-services img {
+  margin-right: 40px; }
